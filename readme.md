@@ -2,6 +2,8 @@
 
 **The Flames Theme** is a blazing dark theme with bold red highlights, developed by **The Flames**.
 
+<iframe width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/27052"></iframe>
+
 ## Features
 - Based on the [GitHub Dark Theme](https://plugins.jetbrains.com/plugin/19291-github-dark-theme).
 - Optimized for JetBrains IDEs.
