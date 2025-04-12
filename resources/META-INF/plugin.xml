@@ -1,0 +1,28 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>de.theflames.theme</id>
+    <name>The Flames Theme</name>
+    <version>1.0.0</version>
+    <vendor url="https://the-fames.de">The Flames</vendor>
+    <description>
+        <![CDATA[
+      A blazing dark theme with bold red highlights by <b>The Flames</b>.<br>
+      <i>Where Creativity Meets Connectivity.</i><br>
+      <br>
+      Visit our website: <a href="https://the-fames.de">the-fames.de</a>
+      <br>
+      Uses the <a href="https://plugins.jetbrains.com/plugin/19291-github-dark-theme">Github Dark Theme</a> as a base.<br>
+    ]]>
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <idea-version since-build="193.0" />
+    <change-notes><![CDATA[
+    Release of Version 1.0.0 of The Flames Theme for JetBrains IDEs.
+  ]]></change-notes>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="TheFlames-Theme" path="/theme/TheFlamesTheme.theme.json"/>
+    </extensions>
+</idea-plugin>
